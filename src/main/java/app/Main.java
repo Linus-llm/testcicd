@@ -8,7 +8,7 @@ public class Main {
             config.showJavalinBanner = true;
         }).start(7070);
 
-        app.get("/", ctx -> ctx.result("Server is running 🚀"));
+        app.get("/", ctx -> ctx.result("Server is running and watchtower added 🚀"));
         app.get("/health", ctx -> ctx.json("{\"status\":\"OK\"}"));
     }
 }
